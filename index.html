@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simon</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="ui two column grid centered">
+            <div class="row">
+
+                <button class="ui button">Reset / Start</button>
+                <div class="ui disabled input">
+                    <input id="score" type="text">
+                </div>
+                <div class="ui toggle checkbox">
+               	    <input id="check" type="checkbox" name="public">
+                    <label>Strict Mode</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ui segment inverted blue" id="1">
+                    
+                </div>
+                <div class="ui segment inverted red" id="2">
+                     
+                </div>
+            </div>
+            <div class="row">
+                <div class="ui segment inverted green" id="3">
+                    
+                </div>
+                <div class="ui segment inverted yellow" id="4">
+                     
+                </div>
+            </div>
+            <div class="row">
+                <h1></h1>  
+            </div>
+        </div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.1/semantic.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

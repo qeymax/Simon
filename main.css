@@ -1,0 +1,15 @@
+body{
+    padding:80px;
+}
+.segment{
+    height: 60px !important;
+    width: 240px !important;
+    margin: 10px !important;
+}
+.toggle{
+    margin-top: 7px; 
+    margin-left: 80px;  
+}
+.input{
+    width:50px;
+}
